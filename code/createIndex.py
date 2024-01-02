@@ -58,7 +58,7 @@ def create_inverted_index(term_list):
         inverted_index[term].append(term_id)
 
     return inverted_index
-
+##
 
 # Entry point of the script
 if __name__ == "__main__":
